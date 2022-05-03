@@ -5,7 +5,7 @@ local UserInputService = game:GetService("UserInputService")
 local VirtualInputManager = game:GetService("VirtualInputManager")
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
---Vars--
+--Variables--
 local LocalPlayer = Players.LocalPlayer
 local Camera = workspace.CurrentCamera
 local flags = {Auto_Clicking = false, Mouse_Locked = false}
