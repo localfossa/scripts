@@ -64,7 +64,7 @@ coroutine.wrap(function()
                 if (flags.Mouse_Locked) then
                     VirtualInputManager:SendMouseButtonEvent(flags.Mouse_Locked_Position.X, flags.Mouse_Locked_Position.Y, Settings["Right Click"] and 1 or 0, i == 1, nil, 0)
                 else
-                    Virtual:SendMouseButtonEvent(Mouse.X, Mouse.Y, Settings["Right Click"] and 1 or 0, i == 1, nil, 0)
+                    VirtualInputManager:SendMouseButtonEvent(Mouse.X, Mouse.Y, Settings["Right Click"] and 1 or 0, i == 1, nil, 0)
                 end
             end
         end
