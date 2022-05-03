@@ -1,3 +1,14 @@
+<h1>Scripts</h1>
+
+## Table of Contents
+
+<ul>
+    <li><a href=#universal-auto-clicker>Universal Auto Clicker</a></li>
+</ul>
+
+## Universal Auto Clicker
+
+```lua
 getgenv().Settings = {
     ["Auto Click Keybind"] = Enum.KeyCode.KeypadTwo, -- Use an UpperCase letter or KeyCode Enum. Ex: Enum.KeyCode.Semicolon
     ["Lock Mouse Position Keybind"] = Enum.KeyCode.KeypadFive,
@@ -6,3 +17,4 @@ getgenv().Settings = {
     ["Delay"] = 0 -- 0 for RenderStepped, other numbers go to regular wait timings.
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/localfossa/scripts/main/universal-auto-clicker/main.lua", true))()
+```
