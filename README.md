@@ -1,12 +1,12 @@
 <h1>Scripts</h1>
 
-## Table of Contents
+<h2>Table of Contents</h2>
 
 <ul>
     <li><a href=#universal-auto-clicker>Universal Auto Clicker</a></li>
 </ul>
 
-## Universal Auto Clicker
+<h2>Universal Auto Clicker</h2>
 
 ```lua
 getgenv().Settings = {
